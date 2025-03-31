@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+:root{
+    --corheader: #0529f5;
+    --coritem:#bbbbbbb6;
+}
 html, body{
     
     height: 100%;
@@ -15,7 +19,7 @@ html, body{
 
 
 header {
-    background-color: #0529f5;
+    background-color: var(--corheader);
     text-align: center;
     font-size: 1em;
     color: #ffffff;
@@ -38,7 +42,7 @@ a {
 }
 
 div.item {
-    background-color: #bbbbbbb6;
+    background-color: var(--coritem);
     text-align: center;
     margin-bottom: 10px;
     width: 100px;

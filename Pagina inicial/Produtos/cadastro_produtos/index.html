@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="estilos/mobilefirs.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back" />
+    <!-- #005996 -->
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+        </a>
+
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <div>
+                <h2>
+                    Dados gerais
+                </h2>
+                <!-- código produto -->
+                <label for="icod_prod">Código*</label>
+                <input type="number" name="icod_prod" id="icod_prod" minlength="1">
+                <!-- Descrição produtos -->
+                <label for="idescricao">Descrição*</label>
+                <input type="text" name="descricao" id="idescricao" required minlength="2">
+                <label for="prod_ativo">Ativo</label>
+                <input type="checkbox" name="prod_ativo" id="prod_ativo" required>
+
+
+
+                <div>
+                    <!-- Estoque produtos -->
+                    <label for="estoque_total">Estoque</label>
+                    <input type="number" name="estoque_total" id="estoque_total">
+
+                    <label for="estoque_min">Estqe. min.</label>
+                    <input type="number" name="estoque_min" id="estoque_min">
+                    <!-- Preço venda -->
+                    <label for="preço_venda">Preço*</label>
+                    <input type="number" name="preço_venda" id="preço_venda" required value="0,01">
+                    <!-- Custo venda -->
+                    <label for="custo_comp">Custo*</label>
+                    <input type="number" name="custo_comp" id="custo_comp">
+                </div>
+            </div>
+            <div>
+                <!--Unidade de medida  -->
+                <label for="und_medida">Und. medida*</label>
+                <input type="number" name="und_medida" id="und_medida" required>
+                <!-- Grupo -->
+                <label for="grupo_prod">Grupo*</label>
+                <input type="text" name="grupo_prod" id="grupo_prod" required>
+                <!-- Fornecedor -->
+                <label for="fornecedor">Fornecedor</label>
+                <input type="text" name="fornecedor" id="fornecedor" required>
+                <!-- Código de barras -->
+                <label for="cod_barra">Código de barras </label>
+                <input type="number" name="cod_barra" id="cod_barra">
+                <!-- Obsevações -->
+                <label for="obs">Observações</label>
+                <input type="text" name="obs" id="obs">
+
+            </div>
+            <div class="dados_fiscais">
+                <h3>
+                    Dados fiscais
+                </h3>
+                <!-- Dados fiscais -->
+                <label for="perfil_trib">Perfil de tributação </label>
+                <input type="text" name="perfil_trib" id="perfil_trib" placeholder="Selecione um perfil">
+
+                <label for="Origem_prod">Origem do produto* </label>
+                <input type="text" name="Origem_prod" id="Origem_prod" required>
+
+                <label for="cts_contri">CTS contribuinte* </label>
+                <input type="text" name="cts_contri" id="cts_contri" required>
+
+                <label for="csosn_contri">CSOSN contribuinte* </label>
+                <input type="text" name="csosn_contri" id="csosn_contri" required>
+
+                <label for="cfop">CFOP NF-e </label>
+                <input type="text" name="cfop" id="cfop" placeholder="Secione um CFOP">
+
+
+                <label for="cfop_nfc-e">CFOP NFC-e </label>
+                <input type="text" name="cfop_nfc" id="cfop_nfc" placeholder="Secione um CFOP">
+
+                <label for="ncm">NCM* </label>
+                <input type="number" name="ncm" id="ncm" required>
+
+                <label for="cest">Cest </label>
+                <input type="number" name="cest" id="cest">
+
+                <label for="ex_fiscal">Excessão fiscal </label>
+                <input type="text" name="ex_fiscal" id="ex_fiscal">
+
+                <label for="trib_contribuinte">Tributação contribuinte </label>
+                <input type="text" name="trib_contribuinte" id="trib_contribuinte">
+
+                <label for="taxa_fcp">Taxa FCP </label>
+                <input type="text" name="taxa_fcp" id="taxa_fcp">
+            </div>
+        </form>
+        <div>
+            <button type="submit">Salvar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+body > a > img{
+    height: 30px;
+    padding: 5px;
+}
+
+header {
+
+    padding: 20px;
+}
+
+header>a {
+    background-color: #1d3df3;
+    color: white;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+header>a:hover {
+    background-color: #0628e7;
+    transition: .8s;
+}
+
+main {
+
+    width: 100%;
+    height: 90%;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+form>div {
+    border: 1px solid black;
+    border-radius: 5px;
+   
+
+   
+}
+
+form>div input {
+    padding: 10px;
+    border: none;
+    outline: 0;
+}
+
+form>div>span {
+    padding-right: 5px;
+}
