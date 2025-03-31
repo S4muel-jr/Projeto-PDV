@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*configurações tablets */
+@media screen and (min-width:768px) {
+    main {
+        
+        flex-flow: row wrap; 
+        height: 50%;
+
+       
+
+    }
+
+
+    div.item {
+        margin-right: 15px;
+
+    }
+
+    div.item:hover {
+        transform: translatey(-15px);
+        transition: .1s;
+    }
+}

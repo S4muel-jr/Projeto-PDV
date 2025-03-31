@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+   <style>
+   
+
+/* Mobile first */
+* {
+padding: 0%;
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+html, body{
+height: 100%;
+width: 100;
+}
+
+
+header {
+background-color: #0529f5;
+text-align: center;
+font-size: 1em;
+color: #ffffff;
+padding: 30px;
+
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 115dvh;
+background-color: #ffffff;
+
+}
+a {
+
+text-decoration: none;
+color: black;
+}
+
+div.item {
+background-color: #abafa8;
+text-align: center;
+margin-bottom: 10px;
+width: 100px;
+height: 95px;
+border-radius: 5px;
+padding-top: 10px;
+
+}
+/*configurações tablets */
+@media screen and (min-width:768px) {
+    main {
+        
+        flex-flow: row wrap; 
+       
+
+    }
+
+
+    div.item {
+        margin-right: 15px;
+
+    }
+
+    div.item:hover {
+        transform: translatey(-15px);
+        transition: .1s;
+    }
+}
+
+
+   </style>
+       
+</head>
+<body>
+    <header>
+        <h2>PDV</h2>
+    </header>
+    <main >
+        <script>
+            alert ('yametekudasai oni-chan')
+        </script>
+        <a href="#">
+            <div class="item">Caixa</div>
+        </a>
+        <a href="#">
+            <div class="item">Estoque</div>
+        </a>
+        <a href="#">
+            <div class="item">Cliente</div>
+        </a>
+        <a href="#">
+            <div class="item">Relatórios</div>
+        </a>
+        <a href="#">
+            <div class="item">Produto</div>
+        </a><a href="#">
+            <div class="item">Mesa</div>
+        </a>
+        <a href="#">
+            <div class="item">Configuração</div>
+        </a>
+    </main>
+</body>
+</html>
