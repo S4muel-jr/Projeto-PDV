@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+                /* Mobile first- pagina inicial */
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+:root{
+    --corprimaria: #005996;
+    --corsecundaria:#939393;
+}
+html, body{
+    
+    height: 100%;
+    width: 100;
+}
+
+
+header {
+    background-color: var(--corprimaria);
+    text-align: center;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+   
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+div.item {
+    
+    width: 70px;
+    background-color: var(--corsecundaria);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+

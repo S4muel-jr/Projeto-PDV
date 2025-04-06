@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Caixa</title>
-    <link rel="stylesheet" href="estilos/mobilefirst.css">
+    <link rel="stylesheet" href="estilos/mobilefirst-caixa.css">
+    <link rel="stylesheet" href="estilos/mediaquery-caixa.css">
 </head>
 <body>
     <header>
@@ -14,11 +15,40 @@
     </header>
     <main>
         
-        <Section>
-            <h2>Produtos</h2>
+        <Section class="conteiner_produtos">
+            <form action="" method="get" autocomplete="on">
+                <div>
+                    <label for="ipesq_prod"></label>
+                    <input type="search" name="pesq_prod" id="ipesq_prod" placeholder="F2- LANÇAR UM ITEM (Digite código, descrição ou cód. de barras) produto" >
+                </div>
+                
+            </form>
+           
+            <div>
+                <!-- View produtos -->
+            </div>
+            <div class="info_prod">
+                <p>Item</p>
+                <p>Descrição</p>
+                <p>Quantidade</p>
+                <p>Valor unt. R$</p>
+                <p>Total R$</p>
+            </div>
         </Section>
-        <section>
-            <h2>caixa</h2>
+        <section class="conteiner_caixa">
+
+            <section class="info_valortotal">
+                <div >
+                
+                
+                    <h2>Total <output>R$: 0,00</output></h2>
+                
+                </div>
+            </section>
+
+            <div>
+                <!-- View informações adicionais -->
+            </div>
         </section>
     </main>
 </body>

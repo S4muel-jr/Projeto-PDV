@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* MOBILE FIRST */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100dvh;
+   
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+main {
+
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+main>section#formulario {
+    height: 100%;
+    background-color: #5c5c5ca9;
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+div {
+    width: auto;
+}
+div > p{
+    margin-left: 10px;
+}
+
+section>.conteiner-prod {
+    flex-direction: row;
+
+}
+
+
+input {
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+
+}
+
+section input#prod_ativo {
+    width: 40px;
+
+}
+
+section.conteiner-estq {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding-left: 5px;
+
+
+}
+
+section.conteiner-und {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 5px;
+
+
+}
+
+section.conteiner-und>div input {
+    width: 90px;
+
+}
+
+section.dados_fiscais, section.dados-adicionais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 5px;
+}
+
+section.dados_fiscais>div input {
+    width: 130px;
+
+}
+
+section.submit-reset {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+div.reset,div.submit {
+    width: 60%;
+    
+    
+}
+
+div.submit  > button, div.reset > button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+

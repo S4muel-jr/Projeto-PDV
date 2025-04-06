@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Configuração do caixa- telas grandes */
+
+@media screen and ( min-width: 768px){
+    main{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+         height: 100%;
+    }
+    section.conteiner_produtos  {
+       float:  left;
+        width: 45%;
+        
+    }
+    section.conteiner_caixa{
+        float: right;
+        margin-left: 20px;
+       width: 45%;
+       
+       
+    }
+    section.conteiner_caixa > div , section.conteiner_produtos > div{
+        height: 80%;
+        
+  
+    }
+   section div.info_prod{
+        height:20px;
+
+    }
+    
+}

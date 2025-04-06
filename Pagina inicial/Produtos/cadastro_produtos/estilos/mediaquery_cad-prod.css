@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*  Configurações de tablets */
+
+@media  screen and (min-width:769px) {
+    div.cod_prod{
+        width: 40%;
+        
+    }
+    div.conteiner-prod{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+       
+    }
+    div.conteiner-prod p + label {
+       padding: 10px;
+       
+
+    }
+    input{
+        border: none;
+        outline: 0;
+    }
+    main >  section#formulario{
+        max-width: 800px;
+    }
+    
+}

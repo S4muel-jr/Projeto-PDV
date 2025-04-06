@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*  Mobile first */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+:root {
+    --corprimaria: #005996;
+    --corsecundaria: #939393;
+}
+
+body{
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+  
+}
+section#formulario{ 
+background-color: var(--corsecundaria);
+height: auto;
+width: 75%;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+
+
+section#formulario input{
+    width: 90%;
+    padding: 5px;
+     margin: 5px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+
+    
+}
+
+
+section.submit-reset {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+div.reset,div.submit {
+    width: 60%;
+    
+    
+}
+
+div.submit  > button, div.reset > button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

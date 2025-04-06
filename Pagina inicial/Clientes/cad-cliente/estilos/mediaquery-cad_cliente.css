@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Configurações para tablets e superior */
+
+@media screen and (min-width: 769px) {
+section#formulario{
+    max-width: 692px;
+}
+   
+   div  input#icod_cliente {
+       width: 70px;
+
+    }
+    form > .cod_cliente{
+        display: flex;
+        
+        
+    }
+
+     form section.cod_cliente {
+        width:95%;
+
+    }
+    form section.contato{
+        display: flex;
+        width: 100%;
+       
+    }
+    form section.endereços{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+   
+
+
+}
