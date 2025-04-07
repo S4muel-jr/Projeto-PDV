@@ -22,17 +22,21 @@ text-align: center;
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
    
 }
-section.conteiner_produtos, section.conteiner_caixa{
+section.conteiner_produtos{
+    border-radius:10px  10px 0px 0px;
+}
 
+section.conteiner_produtos, section.conteiner_caixa{
     background-color:  #5c5c5ca9;
-    border-radius: 10px;
-   
+    width: 90%;
     height: 80%;
+   
 
 }
 
@@ -76,7 +80,10 @@ div.info_prod{
 div.info_prod > p{
     margin: 10px;
 }
-
+section.conteiner_caixa{
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
 section.conteiner_caixa div >  h2{
     text-align: left;
 }

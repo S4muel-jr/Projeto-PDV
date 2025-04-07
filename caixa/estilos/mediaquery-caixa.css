@@ -13,18 +13,20 @@
     section.conteiner_produtos  {
        float:  left;
         width: 45%;
+        border-radius: 10px;
         
     }
     section.conteiner_caixa{
         float: right;
         margin-left: 20px;
        width: 45%;
-       
+       border-radius: 10px;
+       margin-bottom: 0px;
        
     }
     section.conteiner_caixa > div , section.conteiner_produtos > div{
         height: 80%;
-        
+        max-width: 1000px;
   
     }
    section div.info_prod{
