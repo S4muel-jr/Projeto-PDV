@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Mobile first  */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --corprimaria: #005996;
+    --corsecundaria: #939393;
+}
+body{
+    width: 100dvw;
+    height: 100dvh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#conteiner_formulario{
+    background-color:var(--corsecundaria) ;
+    height: auto;
+    width: 65%;
+}
+
+section#conteiner_formulario  form > div{
+width: 60%;
+margin: 5px;
+padding-right:15px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+
+form > div input{
+    width: 100%;
+    padding: 5px;
+}
+
+section#conteiner_formulario  form >  div.perfil_user input{
+   display: block;
+  
+}

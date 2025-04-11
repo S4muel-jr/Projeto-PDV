@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/mobilefirst-cad_usuarios.css">
+    <title>Cadastro de usuários</title>
+</head>
+<body>
+    <main>
+        <section id="conteiner_formulario">
+            <h2>Dados gerais</h2>
+            <form action="" method="get">
+                <div>
+                    <p><label for="inome">Nome usuário*</label></p>
+                    <input type="text" name="nome" id="inome" required minlength="3"  placeholder="Digite sua nome">
+                </div>
+                <div>
+                    <p><label for="ilogin">Login*</label></p>
+                    <input type="text" name="login" id="ilogin" required minlength="3"  placeholder="Digite sue login">
+                </div>
+                <div>
+                    <p><label for="isenha">Senha*</label></p>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="4">
+                </div>
+                <div>
+                    <p><label for="iconf_senha">Confirme a senha*</label></p>
+                    <input type="password" name="senha" id="iconf_senha" required minlength="4"  placeholder="Confirme sua senha">
+                </div>
+                
+                    <h2>Perfil de usuários</h2>
+               
+                <div class="perfil_user">
+                    
+                    <div>
+                        <label for="iadmin">Administrador</label>
+                        <input type="checkbox" name="admin" id="iadmin">
+                    </div>
+                    <div>
+                        <label for="ivendedor">Vendedor</label>
+                        <input type="checkbox" name="vendedor" id="ivendedor">
+                    </div>
+                    <div>
+                      <label for="icaixa">Caixa</label>
+                       <input type="checkbox" name="caixa" id="icaixa"> 
+                    </div>
+                    
+                    
+
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
